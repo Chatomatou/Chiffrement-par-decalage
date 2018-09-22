@@ -21,8 +21,7 @@ std::string ceasar_cipher(const std::string& data, const int shift)
  		if(c + shift > 90)
  		{
  			auto addedShift = 90 - static_cast<int>(c);
- 			std::cout << addedShift<< std::endl;
- 			c = 65 + addedShift;
+ 			c = 64 + (shift - addedShift);
  		}
  		else 
  		{
@@ -54,7 +53,7 @@ void ceaser_decipher(const std::string& data)
  			if(c - i < 65)
  			{
  				auto resetShift = static_cast<int>(c) - 65;
- 				c = 90 - resetShift;
+ 				c = 91 - (i - resetShift);
  			}
  			else 
  			{
