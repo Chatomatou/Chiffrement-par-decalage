@@ -3,8 +3,8 @@ En cryptographie, le chiffrement par décalage, aussi connu comme le chiffre de 
 # Compilation 
 Ce programme a etaits compiler avec les argument suivant :
 ```console
-g++ src/main.cpp -o bin/ceaser_cipher_decipher.exe -Wall -Wextra -pedantic -std=c++17**
+g++ src/main.cpp -o bin/ceaser_cipher_decipher.exe -Wall -Wextra -pedantic -std=c++17
 ```
 
 ### Resultat du programme   
-![alt text](https://image.noelshack.com/fichiers/2018/26/5/1530227560-attaquedestitant.png)
+![alt text](http://image.noelshack.com/fichiers/2018/38/6/1537653378-decalage.png)
